@@ -1,0 +1,44 @@
+#slider {
+  width: 970px;
+  margin: 0 auto;
+  position: relative;  
+}
+
+.scroll {
+  height: 250pox;
+  overflow: auto;
+  position: relative; /* fix for IE to respect overflow */
+  clear: left;
+  background: #FFFFFF url(../images/content_pane-gradient.gif) repeat-x scroll left bottom;
+  border:#eeb991 1px solid;
+  width:970px;
+  margin-left:8px;
+  border-radius:8px;
+  -moz-border-radius:8px;
+  -webkit-border-radius:8px;
+}
+
+.scrollContainer{
+	width:4940px !important;
+}
+
+.scrollContainer div.panel {
+  padding: 20px;
+  height: 210px;
+  width: 580px; /* change to 560px if not using JS to remove rh.scroll */
+  float:left;
+}
+
+.scrollButtons {
+    position: absolute;
+    top: 150px;
+    cursor: pointer;
+}
+
+.scrollButtons.left {
+    left: -20px;
+}
+
+.scrollButtons.right {
+    right: -20px;
+}

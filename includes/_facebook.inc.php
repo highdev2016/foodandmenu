@@ -1,0 +1,8 @@
+<?php
+
+define("FACEBOOK_APP_ID", '646665315362675');
+
+define("FACEBOOK_APP_VER", 'v2.1');
+
+define("FACEBOOK_APP_SECRET", '237ad710e220fe6cad4dc0403653e934');
+

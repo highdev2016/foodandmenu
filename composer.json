@@ -1,0 +1,7 @@
+{
+    "name": "foodandmenu/foodandmenu",
+    "description": "foodandmenu composer modules",
+    "require": {
+	"stripe/stripe-php": "4.*"
+    }
+}

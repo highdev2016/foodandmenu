@@ -1,0 +1,375 @@
+<?php
+/**
+ * The Header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="main">
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twelve
+ * @since Twenty Twelve 1.0
+ */
+ session_start();
+?><!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" <?php language_attributes(); ?>>
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html <?php language_attributes(); ?>>
+<!--<![endif]-->
+<head>
+<meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width" />
+<!--<title><?php wp_title( '|', true, 'right' ); ?></title>-->
+<title>Food & menu</title>
+<link rel="shortcut icon" href="http://www.foodandmenu.com/favicon.ico" type="image/x-icon"/>
+<script type='text/javascript' src='http://www.foodandmenu.com/js/jquery.ui.totop.js'></script> 
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<?php // Loads HTML5 JavaScript file to add support for HTML5 elements in older IE versions. ?>
+<!--[if lt IE 9]>
+<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js" type="text/javascript"></script>
+<![endif]-->
+<link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet" type="text/css" />
+<script type='text/javascript' src='<?php bloginfo('template_url'); ?>/js/jquery-1.7.2.min.js'></script>
+
+<link href="https://foodandmenu.com/css/style_new.css" rel="stylesheet" type="text/css">
+<link href="https://foodandmenu.com/css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="https://foodandmenu.com/css/bootstrap-theme.css" rel="stylesheet" type="text/css">
+<link href="https://foodandmenu.com/css/font-awesome.css" rel="stylesheet">
+<link href="https://foodandmenu.com/css/font-awesome.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="https://foodandmenu.com/css/animation.css">
+<link href="https://foodandmenu.com/css/responsive.css" rel="stylesheet" type="text/css">
+        
+<?php wp_head(); ?>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+    jQuery(".slidingDiv").hide();
+    jQuery(".show_hide").show();
+    jQuery('.show_hide').click(function(){
+        jQuery(".slidingDiv").slideToggle();
+    });
+});
+</script>
+
+
+<script type="text/javascript">
+function close_city_div()
+{
+	document.getElementById('slidingDiv').style.display="none";
+}
+</script>
+
+</head>
+
+<body <?php body_class(); ?> onLoad="init();">
+<div id="page" class="hfeed">
+<?php /*?>	<header id="masthead" class="site-header" role="banner">
+		<hgroup>
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		</hgroup>
+
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h3 class="menu-toggle"><?php _e( 'Menu', 'twentytwelve' ); ?></h3>
+			<a class="assistive-text" href="#content" title="<?php esc_attr_e( 'Skip to content', 'twentytwelve' ); ?>"><?php _e( 'Skip to content', 'twentytwelve' ); ?></a>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu' ) ); ?>
+		</nav><!-- #site-navigation -->
+
+		<?php $header_image = get_header_image();
+		if ( ! empty( $header_image ) ) : ?>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><img src="<?php echo esc_url( $header_image ); ?>" class="header-image" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" /></a>
+		<?php endif; ?>
+	</header><?php */?><!-- #masthead -->
+    
+<!--<script type="text/javascript">
+function validate(){
+	if(document.getElementById('full_address').value == ''){
+		alert('Please enter your address');
+		document.getElementById('full_address').focus();
+		return false;
+	}
+	if((document.getElementById('full_address').value == '') && (document.getElementById('rest_item').value!= '')){
+		alert('Please enter your address');
+		document.getElementById('full_address').focus
+	}
+	return true;
+}
+</script>-->
+<?php /*?><?php include ("search_compete_area.php"); ?><?php */?>
+
+<?php
+session_start();
+$currentFile = $_SERVER["PHP_SELF"];
+$parts = Explode('/', $currentFile);
+$page = $parts[count($parts) - 1];
+?>
+
+<header class="stick_header banner-serve">
+
+                <div class="container">
+
+                    <div class="logo_section slideDown">
+
+                        <a href="https://foodandmenu.com/index.php"><img src="https://foodandmenu.com/images/logo1.png"></a>
+
+                    </div>
+
+                   
+
+                    <div class="nav_section">
+                    
+                    	<nav>
+                        
+                        	<ul id="menu">
+                               
+                                <li><a href="https://foodandmenu.com/index.php" <?php if($page=="index.php"){?> class="active_menu" <?php }?> >Home</a></li>
+                                
+                                <li><a href="https://foodandmenu.com/vendor.php" <?php if($page=="vendor.php"){ $class = "active_menu"; } ?> class="mid_menu <?php echo $class; ?>" >Vendors</a></li>
+                                
+                                <li><a href="https://foodandmenu.com/blog">Blog</a></li>
+                                
+                                <li><a href="https://foodandmenu.com/contact.php" <?php if($page=="contact.php"){?> class="active_menu" <?php }?> >Contact Us</a></li>
+                                
+                                <?php if(isset($_COOKIE['customer_id'])){	
+								$sql_customer_name = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '".$_COOKIE['customer_id']."'");
+								$row_name = mysql_fetch_array($sql_customer_name); ?>
+                                    <li><a href="https://foodandmenu.com/user_profile.php">User profile</a></li>
+                                    <li><a href="https://foodandmenu.com/logout.php" >Logout</a></li>
+								<?php }
+								elseif(isset($_SESSION['customer_id'])){
+								$sql_customer_name = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '".$_SESSION['customer_id']."'");
+								$row_name = mysql_fetch_array($sql_customer_name); ?>
+									<li><a href="https://foodandmenu.com/user_profile.php" class="login_icon log-icon"><span><img src="https://foodandmenu.com/images/user.png"></span> <span><?php echo $row_name['firstname']; ?></span></a></li>
+                                    <!-- <li><a href="user_profile.php"><?php echo $row_name['firstname']; ?></a></li> -->
+                                    <li><a href="https://foodandmenu.com/logout.php" class="regi_icon log-icon"><span><img src="https://foodandmenu.com/images/logout.png"></span> <span>Logout</span></a></li>
+                                    <!-- <li><a href="logout.php" >Logout</a></li> -->
+								<?php } else{ ?>
+                                    <li><a href="https://foodandmenu.com/login.php" class="login_icon log-icon"><span><img src="https://foodandmenu.com/images/login-icon.png"></span> <span>Login</span></a></li>
+                                    
+                                    <li><a href="https://foodandmenu.com/signup.php" class="regi_icon log-icon"><span><img src="https://foodandmenu.com/images/regi-icon.png"></span> <span>Register</span></a></li>
+                                <?php } ?>
+                            </ul>
+                        
+                        </nav>
+                    
+                    </div>
+                    
+                    <?php /*?><p class="welcome_txt">
+                    
+                    <?php if(isset($_COOKIE['customer_id'])){	
+	                        $sql_customer_name1 = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '".$_COOKIE['customer_id']."'");
+	                        $row_name1 = mysql_fetch_array($sql_customer_name1); ?>
+	                        
+	                        <a href="javascript:void(0);">Welcome, &nbsp;<i class="fa fa-user"></i> <?php echo $row_name1['firstname']; ?></a>
+	                        <?php } elseif(isset($_SESSION['customer_id'])){
+	                        $sql_customer_name1 = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '".$_SESSION['customer_id']."'");
+	                        $row_name1 = mysql_fetch_array($sql_customer_name1); ?>
+	                        <a href="javascript:void(0);">Welcome, &nbsp;<i class="fa fa-user"></i> <?php echo $row_name1['firstname']; ?></a>
+	                        <?php } ?>
+                            
+                     </p><?php */?>
+
+
+
+					<?php /* ?> <div class="wlcm">
+                        <?php
+                        if (isset($_COOKIE['customer_id'])) {
+                            $sql_customer_name1 = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '" . $_COOKIE['customer_id'] . "'");
+                            $row_name1 = mysql_fetch_array($sql_customer_name1);
+                            ?>
+
+                            <a href="javascript:void(0);">Welcome, &nbsp;<i class="fa fa-user"></i> <?php echo $row_name1['firstname']; ?></a>
+                            <?php
+                        } elseif (isset($_SESSION['customer_id'])) {
+                            $sql_customer_name1 = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '" . $_SESSION['customer_id'] . "'");
+                            $row_name1 = mysql_fetch_array($sql_customer_name1);
+                            ?>
+                            <a href="javascript:void(0);">Welcome, &nbsp;<i class="fa fa-user"></i> <?php echo $row_name1['firstname']; ?></a>
+                        <?php } ?>
+                    </div> <?php */ ?>
+                    <?php /* ?><div class="login-sec">
+
+                      <?php if(isset($_COOKIE['customer_id'])){
+                      $sql_customer_name = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '".$_COOKIE['customer_id']."'");
+                      $row_name = mysql_fetch_array($sql_customer_name); ?>
+
+                      <!-- <a href="javascript:void(0);">Welcome , <?php //echo $row_name['firstname']; ?></a> -->
+                      <a href="user_profile.php">User profile</a>
+                      <a href="logout.php" >Logout</a>
+                      <?php }
+                      elseif(isset($_SESSION['customer_id'])){
+                      $sql_customer_name = mysql_query("SELECT * FROM  restaurant_customer WHERE  id = '".$_SESSION['customer_id']."'");
+                      $row_name = mysql_fetch_array($sql_customer_name); ?>
+                      <!-- <a href="javascript:void(0);">Welcome , <?php //echo $row_name['firstname']; ?></a> -->
+                      <a href="user_profile.php">User profile</a>
+                      <a href="logout.php" >Logout</a>
+                      <?php } else{ ?>
+
+                      <a href="login.php" class="login_icon"><span><img src="images/login-icon.png"></span> <span>Login</span></a>
+
+                      <a href="signup.php" class="regi_icon"><span><img src="images/regi-icon.png"></span> <span>Register</span></a>
+
+                      <?php } ?>
+
+                      <div class="clear"></div>
+
+                      </div><?php */ ?>
+
+                    <div class="clear"></div>
+
+                </div>
+
+                <!-- address section start here  -->
+
+                <section class="search_address_section">
+
+                    <div class="container">
+					
+                    <?php if($page!='profile.php' && $page!='vendor.php' && $page!='contact.php' && $page!='reservation.php' && $page!='review.php' && $page!='write_review.php' && $page!='user_profile.php' && $page!='edit_profile.php' && $page!='order_history.php' && $page!='edit_shipping_billing.php' && $page!='gift_certificate_history.php' && $page!='customer_reviews.php' && $page!='onlinereservation.php'){ ?>
+                        <h1>Your Address: <?php echo $_SESSION['address']; ?></h1>
+
+                        <?php /*?><h2><a href="index.php">CHANGE ADDRESS</a></h2><?php */?>
+                        <h2><a href="javascript:void(0);" onclick="open_adress_pop_up();">CHANGE ADDRESS</a></h2>
+                    <?php } ?>
+                    
+                    <?php if($page == 'profile.php' || $page == 'vendor.php' || $page == 'contact.php' || $page == 'reservation.php' || $page == 'review.php' || $page == 'write_review.php' || $page == 'user_profile.php' || $page == 'edit_profile.php' || $page == 'order_history.php' || $page == 'edit_shipping_billing.php' || $page == 'gift_certificate_history.php' || $page == 'customer_reviews.php' || $page == 'onlinereservation.php'){ ?>
+                    	<h2><a href="search_result.php">BACK TO RESTAURANT LIST</a></h2>
+                    <?php } ?>
+
+                    </div>
+
+                </section>
+
+                <!-- address section end here  -->
+
+            </header>
+            
+            <div class="header_back"></div>
+            
+            <div class="clearfix"></div>
+
+<div id="change_address_div" style="display:none;" class="white_content">
+<div class="close close-new" onclick="close_address_div();"><a href = "javascript:void(0);"> </a> </div>
+<div class="l-contnt up-contnt"> 
+<form name="change_address_frm" id="change_address_frm" method="post" action="search_result.php">
+<input name="address" id="address" type="text" class="search_field" placeholder="Enter Address">
+<div id="map-canvas"></div>
+<select id="set_value" name="set_value">
+  <option value="del_pickup">Delivery & Pickup</option>
+  <option value="del">Delivery</option>
+  <option value="pickup">Pickup</option>
+</select>
+<input name="hid_default" type="hidden" value="default">
+<input name="search" type="submit" class="search_button" value="Find Restaurants">
+</form>
+</div>
+</div>
+
+<div id="fade_new" style="display:none;"></div>
+
+<script type="text/javascript">
+function open_adress_pop_up(){
+	var $j = jQuery.noConflict();
+	$j("#change_address_div").show();
+	$j("#fade_new").show();
+}
+function close_address_div(){
+	var $j = jQuery.noConflict();
+	$j("#change_address_div").hide();
+	$j("#fade_new").hide();
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
+    <script>
+// This example adds a search box to a map, using the Google Place Autocomplete
+// feature. People can enter geographical searches. The search box will return a
+// pick list containing a mix of places and predicted search terms.
+
+function initialize(){
+
+  var markers = [];
+  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+   // mapTypeId: google.maps.MapTypeId.ROADMAP
+  });
+
+ /* var defaultBounds = new google.maps.LatLngBounds(
+      new google.maps.LatLng(-33.8902, 151.1759),
+      new google.maps.LatLng(-33.8474, 151.2631));
+  map.fitBounds(defaultBounds);*/
+
+  // Create the search box and link it to the UI element.
+  var input = /** @type {HTMLInputElement} */(
+      document.getElementById('address'));
+  map.controls[google.maps.ControlPosition.TOP_LEFT].push(input);
+
+  var searchBox = new google.maps.places.SearchBox(
+    /** @type {HTMLInputElement} */(input));
+
+  // [START region_getplaces]
+  // Listen for the event fired when the user selects an item from the
+  // pick list. Retrieve the matching places for that item.
+  google.maps.event.addListener(searchBox, 'places_changed', function() {
+    var places = searchBox.getPlaces();
+
+    if (places.length == 0) {
+      return;
+    }
+    /*for (var i = 0, marker; marker = markers[i]; i++) {
+      marker.setMap(null);
+    }*/
+
+    // For each place, get the icon, place name, and location.
+    /*markers = [];
+    var bounds = new google.maps.LatLngBounds();
+    for (var i = 0, place; place = places[i]; i++) {
+      var image = {
+        url: place.icon,
+        size: new google.maps.Size(71, 71),
+        origin: new google.maps.Point(0, 0),
+        anchor: new google.maps.Point(17, 34),
+        scaledSize: new google.maps.Size(25, 25)
+      };
+
+      // Create a marker for each place.
+      var marker = new google.maps.Marker({
+        map: map,
+        icon: image,
+        title: place.name,
+        position: place.geometry.location
+      });
+
+      markers.push(marker);
+
+      bounds.extend(place.geometry.location);
+    }*/
+
+    //map.fitBounds(bounds);
+  });
+  // [END region_getplaces]
+
+  // Bias the SearchBox results towards places that are within the bounds of the
+  // current map's viewport.
+  google.maps.event.addListener(map, 'bounds_changed', function() {
+    var bounds = map.getBounds();
+    searchBox.setBounds(bounds);
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+</div></div>
+
+<div class="clear"></div>
+
+<div id="main" class="wrapper">
+
+<div class="body_section">
+<div class="container">
+<div class="body_top"></div>
+<div class="main_body">
+<div class="about_body_cont" style="display:table;">

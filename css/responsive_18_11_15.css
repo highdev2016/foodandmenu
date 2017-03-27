@@ -1,0 +1,3075 @@
+
+
+    /* Note: Design for a width of 960px */
+
+    @media only screen and (min-width: 999px) and (max-width: 1199px) {
+		
+		.logo_section{
+			width:92%;
+		}
+		
+		.logo_section img {
+			height: auto;
+			width: 14%;
+		}
+		
+		header{
+			height:60px;
+		}
+		
+		nav ul li a.mid_menu {
+			margin-right: 170px;
+		}
+		
+		nav ul{
+			padding-top: 18px;
+		}
+		
+		nav ul li a.login_icon {
+			margin: -22px 0 0 13px;
+		}
+		
+		.restu_search_panel{
+			margin:100px auto 0;
+			width:100% !important;
+		}
+		
+		.selectric{
+			width: 255px;
+		}
+		
+		.search_button{
+			width:212px;
+			font-size:16px;
+		}
+		
+		.address_bg{
+			width:290px;
+			height:332px;
+		}
+		
+		.app_icon {
+			display: inline-block;
+			height: auto;
+			margin-left: 16px;
+			width: 12%;
+		}
+		
+		.get_app_cls{
+			margin:0 5px 0 0;
+		}
+		
+		.search_button{
+			width:210px;
+		}
+		
+		.selectric{
+			width:254px;
+		}
+		
+		.footer_mid_box img{
+			width:100%;
+		}
+		
+		.footer_mid_box{
+			width:18%;
+		}
+		
+		.last_mid_box a{
+			margin:45px 0 20px;
+			padding:7px 0;
+			width:163px;
+		}
+		
+		.social_sec ul li a{
+			width:20px;
+			height:19px;
+			padding:4px 0;
+		}
+		
+		.footer_mid_box ul li{
+			word-wrap:break-word;
+		}
+		
+		.footer_mid_box ul li a img{
+			height: 10px;
+    		width: 48% !important;
+		}
+		
+		.update_section .slide {
+			width: 292px !important;
+		}
+		
+		.update_section .slide_inner {
+			width: 277px !important;
+		}   
+		
+		/*--------------31/7/15---------------------*/
+		.vendor_cont_left {
+		    float: left;
+		    padding: 5px 0 12px 3px;
+		    width: 20%;
+		}
+		.vendor_cont_left img{
+			width: 100%;
+			height: auto;
+		}
+		.vendor_cont_middle2 {
+		    float: left;
+		    margin-left: 20px;
+		    margin-top: 0;
+		    width: 60%;
+		}
+		.vendor_cont_middle2 .company_details{
+			float: left;
+		}
+		.vendor_cont_middle2 .company_details_description{
+			 float: right;
+			  width: 63%;
+		}
+		.vendor_cont_right {
+		    width: 15%;
+		}
+		.vendor_cont_middle2 p{
+			float: left;
+			width: 100%;
+		}
+		.search_address_section{
+			margin-top: 12px;
+		}
+    }
+    
+    @media only screen and (min-width: 769px) and (max-width: 999px) {
+		
+		.logo_section{
+			width:73%;
+		}
+		
+		.logo_section img {
+			height: auto;
+			width: 16%;
+		}
+		
+		header{
+			height:60px;
+		}
+		
+		nav ul li a.mid_menu {
+			margin-right: 142px;
+			font-size:11px;
+		}
+		
+		nav ul{
+			padding-top: 18px;
+		}
+		
+		nav ul li a.login_icon {
+			margin: -22px 0 0 -16px;
+		}
+		
+		.restu_search_panel{
+			margin:100px auto 0;
+			width:100% !important;
+		}
+		
+		.selectric{
+			width: 255px;
+		}
+		
+		.search_button{
+			width:212px;
+			font-size:16px;
+		}
+		
+		.address_bg{
+			width:290px;
+			height:332px;
+		}
+		
+		.app_icon {
+			display: inline-block;
+			height: auto;
+			margin-left: 16px;
+			width: 12%;
+		}
+		
+		.get_app_cls{
+			margin:0 5px 0 0;
+		}
+		
+		.search_button{
+			width:210px;
+		}
+		
+		.search_button {
+			width: 166px;
+			font-size:14px;
+		}
+		
+		.footer_mid_box img{
+			width:100%;
+		}
+		
+		.footer_mid_box{
+			width:18%;
+		}
+		
+		.last_mid_box a{
+			margin:45px 0 20px;
+			padding:7px 0;
+			width:163px;
+			font-size:13px;
+		}
+		
+		.social_sec ul li a{
+			width:20px;
+			height:19px;
+			padding:4px 0;
+		}
+		
+		.footer_mid_box ul li{
+			word-wrap:break-word;
+		}
+		
+		.footer_mid_box ul li a img{
+			height: 10px;
+    		width: 48% !important;
+		}
+		
+		.update_section .slide {
+			width: 341px !important;
+		}
+		
+		.update_section .slide_inner {
+			width: 326px !important;
+		}   
+		
+		nav ul li a.regi_icon {
+			margin: -22px 0 0;
+			right: -56px;
+		}
+		
+		.search_field{
+			width:200px;
+		}
+		
+		.selectric {
+			width: 200px;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc {
+			max-width: 100%;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc h2 {
+			background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0 !important;
+			border: 1px solid #dddddd !important;
+			border-radius: 3px;
+			font-size: 18px !important;
+			padding: 10px !important;
+		}
+		
+		.address_bg {
+			height: 380px;
+			width: 100%;
+		}
+		
+		.body_top_sec{
+			background-repeat:repeat;
+			height:600px;
+			width:100%;
+		}
+		
+		.address_bg h1 {			
+			font-size: 14px;
+			padding: 76px 0 0;
+		}
+		
+		.address_bg p{
+			font-size: 12px;
+		}
+		
+		.desc_image_sec img {
+			width: 100%;
+		}
+		
+		.get_app_cls{
+			font-size: 16px;
+			width: 180px;
+		}
+		
+		.get_app_cls img{
+			margin:9px 15px 0 0;
+		}
+		
+		.app_icon {
+			display: inline-block;
+			height: auto;
+			margin-left: 10px;
+			margin-right: 0;
+			width: 12%;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc p {
+			background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0 !important;
+			border: 1px solid #dddddd !important;
+			border-radius: 3px;
+			font-size: 12px !important;
+			padding: 10px !important;
+		}
+		
+		/*===================*/
+		.captcha_field {
+		    margin-left: 138px;
+		    width: 328px;
+		}
+		.contact_right_middle img {
+		    float: left;
+		    margin: 5px 10px;
+		}
+		.mailing_address_bottom h3 {
+		    color: #eb6f00;
+		    float: none;
+		    margin: 0;
+		    padding: 6px 6px 6px 0;
+		    text-align: center;
+		}
+		.mailing_address_bottom h4 {
+		    color: #585858;
+		    float: none;
+		    margin: 0;
+		    padding: 0 0 6px;
+		    text-align: center;
+		}
+		.mailing_address_bottom h3.mail_text {
+		    padding: 6px 6px 6px 0;
+		}
+		.mailing_address_bottom h5 {
+		    margin: 0;
+		    padding: 4px 0;
+		    text-align: center;
+		}
+		
+	}
+
+
+/* #Tablet (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 768px */
+
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+		
+		.logo_section{
+			width:100%;
+			 z-index: 9999;
+		}
+		
+		header .container{
+			padding-left:0;
+			padding-right:0;
+		}
+		
+		.logo_section img {
+			height: auto;
+			margin: 49px 0 0 0;
+			width: 20%;
+			 z-index: 99999;
+		}
+		
+		.skdslider{
+			height:auto;
+		}
+		
+		.restu_search_panel{
+			margin: 110px auto 0;
+			padding: 0 0 20px 0 !important;
+			width: 100%;
+			height:auto;
+		}
+		
+		.black_shade img{
+			height: auto;
+			margin: -81px 0 0 35px !important;
+			width: 19%;
+		}
+		
+		.restu_search_panel h1{
+			font-size: 29px;
+    		padding: 22px 35px 18px 0;
+		}
+		
+		.search-panel-sec{
+			height:auto;
+			margin: 0 auto;
+    		width: 90%;
+		}
+		
+		.search_field{
+			float:left;
+			margin:12px 0 0 10px;
+			width:38%;
+		}
+		
+		.selectric-wrapper {
+			float: left;
+			margin: 12px 0 0 10px;
+			width: 28%;
+		}
+		
+		.selectric{
+			width:100%;
+		}
+		
+		.search_button{
+			float:left;
+			margin:12px auto 11px 10px;
+			width:26%;
+		}
+		
+		.black_shade{
+			height:335px;
+			margin:50px 0 0;
+		}
+		
+		.banner_section{
+			height:390px;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc{
+			max-width:50%;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc h2{
+			padding:10px !important;
+			font-size:18px !important;
+			/*border-radius:3px;
+			border:#dddddd 1px solid !important;*/
+			background:rgba(255, 255, 255, 0) !important;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc p{
+			padding:10px !important;
+			font-size:12px !important;
+			/*border-radius:3px;
+			border:#dddddd 1px solid !important;*/
+			background:rgba(255, 255, 255, 0) !important;
+		}
+		
+		.body_top_sec .heading_section img{
+			width:100%;
+			height:auto;
+		}
+		
+		.top_box_sec{
+			display: inline-block;
+			float: none !important;
+			width: 55% !important;
+		}
+		
+		.body_top_sec .heading_section .top_box_sec img {
+			height: auto;
+			width: 25%;
+		}
+		
+		.address_bg{
+			width:100%;
+			height:auto;
+			padding:10px 10px 30px 10px;
+			margin-bottom:40px;
+		}
+		
+		.body_top_sec{
+			width:100%;
+			height:auto;
+			background-repeat:repeat;
+		}
+		
+		.address_bg h1{
+			font-size: 18px;
+    		padding: 16px 0 0;
+		}
+		
+		.delivery-app-sec{
+			height:auto;
+			background-repeat:repeat;
+		}
+		
+		.deliver_app{
+			width:50% !important;
+		}
+		
+		.desc_image_sec img {
+			float: left;
+			height: auto;
+			margin: 15px 0 0;
+			width: 100%;
+		}
+		
+		.app_butt_section{
+			text-align:left;
+			margin:0;
+		}
+		
+		.get_app_cls{
+			margin-right:0;
+			width:168px;
+			font-size:15px;
+		}
+		
+		.app_icon{
+			display: inline-block;
+			height: auto;
+			margin-left: 13px;
+			margin-right: 0;
+			margin-top: 3px;
+			width: 15%;
+		}
+		
+		.app_deliver_sec{
+			margin:0;
+		}
+		
+		.update_section .heading_update_section img{
+			width:100%;
+			height:auto;
+		}
+		
+		.footer_mid_box{
+			width:100%;
+		}
+		
+		.footer_mid_box h1{
+			margin-top:13px;
+		}
+		
+		.foot_mid_logo{
+			text-align:center;
+		}
+		
+		.last_mid_box a{
+			margin:14px 0 20px;
+		}
+		
+		desc_image_sec{
+		}
+		
+		.update_section .slide {
+			width: 343px !important;
+		}
+		
+		.update_section .slide_inner {
+			width: 329px !important;
+		}   
+		
+		.bx-wrapper .bx-prev{
+			left:7px;
+		}
+		
+		.bx-wrapper .bx-next{
+			right:14px;
+		}
+		
+		.slide_inner p{
+			line-height:20px;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc h3{
+			background:none !important;
+		}
+		
+		.login-sec{
+			float: left;
+			margin: 9px 0 0;
+			position: relative;
+			z-index: 9;
+		}
+		
+		header{
+			height:50px;
+		}
+		
+		.cd-top{
+			left:48%;
+		}
+		
+		.js #menu, #menu {
+			display:none;
+		}
+		
+		.js .slicknav_menu, .slicknav_menu {
+			display: block;
+		    height: 49px !important;
+		    padding: 0 !important;
+		    position: fixed;
+		    width: 100%;
+		    z-index: 99999;
+			top:0;
+		}
+		
+		.delivery-app-sec h1{
+			font-size:20px;
+		}
+		
+		.delivery-app-sec p{
+			line-height:22px;
+		}
+		
+		.get_app_cls img{
+			margin:8px 15px 0 0;
+		}
+		
+		.footer_mid_box{
+			width:30% !important;
+			margin-bottom:38px;
+		}
+		
+		.cd-top {
+			left: 49.2%;
+		}
+		
+		/*------*/
+		.search_address_section {
+		    margin: 50px 0 0;
+		    position: relative;
+		    z-index: 0;
+		}
+		.search_main_map{
+			width: 173px;
+		}
+		.search_field_two{
+			width: 250px;
+			margin: 0 20px 15px 0;
+		}
+		.pick_sec_div {
+		    display: inline-block;
+		    float: left;
+		    margin-right: 17px;
+		}
+		.pick_sec_div .pick_check {
+		    float: left;
+		    margin: 5px 8px 0 5px !important;
+		}
+		.sort_sec{
+			 margin-right: 6px;
+    		width: 32%;
+		}
+		.sort_sec h1 {
+		    background: #374587 none repeat scroll 0 0;
+		    color: #ffffff;
+		    font-family: Verdana,Geneva,sans-serif;
+		    font-size: 12px !important;
+		    font-weight: normal;
+		    line-height: 17px;
+		    margin: 0;
+		    padding: 8px;
+		}
+		
+		.listing_image {
+		    float: left;
+		    height: 100px;
+		    overflow: hidden;
+		    width: 125px;
+		}
+		.listing_sec_box_inner .listing_details {
+		    float: left;
+		    margin: 0 0 0 7px;
+		    width: 234px;
+		}
+		.listing_buttons {
+		    float: right;
+		    width: 118px;
+		}
+		.listing_buttons a{
+			 padding: 6px 5px 3px;
+			 font-size: 12px;
+		}
+		ul.delivery_order {
+		    bottom: 9px;
+		    left: 24px;
+		    margin: 0;
+		    padding: 2px 0;
+		    position: absolute;
+		}
+		.listing_sec_box_inner{
+			 padding: 15px 15px 25px;
+		}
+		.open-closed img{
+			top: 18px;
+		}
+		
+		.search_panel_pop_div{
+			left: 0;
+		    position: absolute;
+		    width: 92%
+		}
+		.coupon_right {
+		    float: left;
+		    height: 154px;
+		    overflow: auto;
+		    padding-left: 0;
+		    width: 100%;
+		}
+		.coupon_right p{
+			text-align: left;
+		}
+		.search_panel_pop_div h1{
+			font-size: 12px;
+		}
+		.rest_times .rest_days li {
+		    width: 14.2%;
+		}
+		.active_day {
+		    width: 25px;
+		}
+		.btn_big5 {
+		    font-size: 12px;
+		    padding: 9px 5px;
+		}
+		.btn_big5:focus, .btn_big5:hover, .btn_big5:active {
+		    padding: 8px 4px;
+		}
+		#rest_hours{
+			height: auto !important;
+		}
+		.btn_big5 .arrow5{
+			margin: 2px 0 0;
+		}
+		.social_sec {
+		    margin: 39px 0 0;
+		}
+		/*----------------------*/
+		
+		.vendor_cont_left{
+			
+		}
+		.vendor_cont_left img{
+			width: 100%;
+			height: auto;			
+		}
+		.vendor_cont_middle2 p{
+			float: left;
+		    margin-bottom: 0;
+		    width: 100%;
+		}
+		.vendor_cont_left {
+		    float: left;
+		    padding: 4px 0;
+		    width: 20%;
+		}
+		.vendor_cont_middle2 {
+		    float: left;
+		    margin-left: 10px;
+		    margin-top: 0;
+		    width: 60%;
+		}
+		.vendor_cont_right img {
+		    margin: 10px 0;
+		    width: 100%;
+		}
+		.vendor_cont_right {
+		    float: right;
+		    padding-right: 0;
+		    width: 16%;
+		}
+		.vendor_cont_middle2 .company_details{
+			 float: left;
+		}
+		.vendor_cont_middle2 .company_details_description{
+			width: 64%;
+    		float: right;
+		}
+		
+		.site-content {
+		    float: left;
+		    width: 65% !important;
+		}
+		.widget-area{
+			width: 33.042% !important;
+		}
+		img.alignleft, .wp-caption.alignleft {
+		    margin: 0rem 0.74rem 0.857143rem 0 !important;
+		}
+		.entry-content a{
+			float: left;
+		    margin: 0 1%;
+		    width: 31% !important;
+		}
+		.entry-content a img{
+			max-width: 100%;
+		}
+		.widget-area #s{
+			width: 58% !important; 
+		}
+		/*===================*/
+		.contactfield, .selectarea_box, .contactarea{
+			width: 61%;
+		}
+		.contact_info{
+			width: 100%;
+		}
+		.contact_right_middle img {
+		    float: left;
+		    margin: 5px 10px 0 3px;
+		}
+		.cont_right_field{
+		    margin-left: 30px;
+		    width: 94%;
+		}
+		.select_area_bottom{
+			 width: 98%;
+		}
+		.select_textfield{
+			width: 100%;
+		}
+		.mailing_address_bottom h3{
+			 color: #eb6f00;
+		    float: none;
+		    margin: 0;
+		    padding: 6px 0;
+		    text-align: center;
+		    width: 100%;
+		}
+		.mailing_address_bottom h4 {
+		    float: none;
+		    margin: 0;
+		    padding: 8px 0 0;
+		    text-align: center;
+		}
+		.mailing_address_bottom h5 {
+		    float: left;
+		    margin: 0;
+		    padding: 4px 0;
+		    width: 75%;
+		    word-wrap: break-word;
+		}
+		.mailing_address_bottom h3.mail_text {
+		    padding: 6px 6px 6px 0;
+		}
+		.mailing_address_bottom h5 {
+		    float: none;
+		    margin: 0;
+		    padding: 4px 0;
+		    text-align: center;
+		    width: 100%;
+		}
+		
+		/*------ Added on 13-08-15 ------*/
+		
+		.regi_field_section p{
+			padding: 8px 0 5px 10px;
+			width: 26%;
+		}
+		
+		.regifield{
+			width: 248px;
+		}
+		
+		.regibutton{
+			margin: 6px 5px 10px 161px;
+		}
+		
+		.log-pic {
+			height: auto;
+			margin: -2px 0 0 165px !important;
+			position: absolute;
+			transform: rotateY(180deg);
+			width: 11%;
+		}
+		
+		.registration_logo_section h1{
+			font-size: 28px;
+		}
+		
+		.sign_up_body .registration_logo_section h1{
+			padding: 22px 0 18px 34px;
+		}
+		
+		.sign_up_body .reg_left_nw .regi_field_section p{
+			padding: 0 0 0 19px;
+			text-align: left;
+			width: 100%;
+		}
+		
+		.sign_up_body .reg_left_nw .signupfield{
+			display: block;
+			width: 88%;
+			margin: 5px 0 10px 19px;
+		}
+		
+		.sign_up_body .reg_left_nw .regifield {
+			display: block;
+			width: 88%;
+			margin: 5px 0 10px 19px;
+		}
+		
+		.sign_up_body .reg_right_nw .regi_field_section p{
+			padding: 0 0 0 19px;
+			text-align: left;
+			width: 100%;
+		}
+		
+		.sign_up_body .reg_right_nw .regifield {
+			display: block;
+			width: 88%;
+			margin: 5px 0 10px 19px;
+		}
+		
+		.sign_up_body .reg_right_nw .sel_cls{
+			display: block;
+			width: 88%;
+			margin: 5px 0 10px 19px;
+		}
+		
+		.reg_right_nw .submit_button_left:first-child{
+			margin: 0 10px 0 19px;
+		}
+		
+		.logo_section{
+			left:0;
+		}
+		
+		.registration_admin_section .regicheckbox {
+			margin: 7px 0 0 160px !important;
+		}
+		
+		.registration_admin_section .regibutton {
+			margin: 6px 15px 30px 330px;
+		}
+		
+		.about_cont_bottom{
+			margin: 10px 0 0 0;
+		}
+		
+		.about_cont_middle{
+			margin-left: 0;
+		}
+		
+		.social_image2{
+			margin: 0 0 0 262px;
+			width: 57%;
+		}
+		
+		.deal_side {
+			margin-right: 0;
+			width: 100%;
+		}
+		
+		.reserve_details_left_sec span{
+			display: block;
+			padding-left: 10px !important;
+    		padding-top: 10px;
+		}
+		
+		#captcha_code{
+			float: none;
+			margin-left: 10px;
+			margin-right: 0;
+		}
+		
+		.profilebutton{
+			margin: 8px 0 12px 10px;
+		}
+		
+		.profile_middle_left ul li{
+			padding: 10px 0 4px;
+		}
+		
+		.reservation_hr ul li.profile_li_class span {
+			display: inline-block;
+			width: 100%;
+		}
+		
+		.reservation_hr ul li.profile_li_class span.pro_sign {
+    		margin-right: 0;
+		}
+		
+		.main_body{
+			margin:0 auto;
+		}
+		
+		.social_image2 {
+			float: none;
+			margin: 3px 0 0;
+			position: relative;
+			top: 0;
+			width: auto;
+		}
+		
+		.review_form_field .restaurant{
+			margin-right: 0;
+    		width: 22%;
+		}
+		
+		.review_form_field .new_rating{
+			margin-right: 0;
+    		width: 22% !important;
+		}
+		
+		.review_form_field .restaurant_browse{
+			margin: 8px 0 0;
+    		width: 22%;
+		}
+		
+		.review_form_field .pic_size{
+			margin: 0 6px 0 467px;
+			width: 25%;
+		}
+		
+		.review_area p {
+			width: 24%;
+		}
+		
+		.review_form_field .restaurant_browse2{
+			margin: 8px 0 0 0;
+    		width: 68%;
+		}
+		
+		.rev_sub_butt {
+			float: left;
+			margin-left: 10px;
+			margin-right: 0;
+		}
+		
+		.food_left_side{
+			width: 43%;
+		}
+		
+		.food_middle_side {
+			width: 54%;
+		}
+		
+		.right_input_sec{
+			width: 65%;
+		}
+		
+		.user_pro_div {
+			margin-left: 18px;
+			margin-right: 0;
+			width: 46%;
+		}   
+		
+		/*----------------------    */
+		.cart_body_container{
+			 margin-bottom: 35px !important;
+		}
+		
+		.last_nme{
+			float:left;
+		}
+		
+		.pop_shade{
+			margin-left: auto !important;
+    		margin-right: auto !important;
+			position: relative !important;
+		}
+		
+		/*------ Admin sec ------*/
+		
+		.logo_left img {
+			height: auto;
+			margin: 0;
+			width: 20%;
+		}
+		
+		.header_top{
+			height:92px;
+		}
+		
+		.admin_login_section {
+			margin: -72px 0 0;
+		}
+		
+		.header_top .search_address_section {
+			margin: 32px 0 0;
+			position: relative;
+			top: 0;
+			z-index: 0;
+		}
+		
+		.restu_live_cont .restaurant_cont_field table.sec-pnl-top tr td {
+			display: inline-block;
+			width: 100%;
+		}
+		
+		.restu_live_cont .restaurant_cont_field table.balance_pnl tr td {
+			display: inline-block;
+			text-align: right;
+			width: 19%;
+		}
+		
+		.restu_live_cont .restaurant_cont_field{
+			overflow:scroll;
+		}
+		
+		.restu_nav_right {
+			float: right;
+			width: 76%;
+		}
+		
+		.restu_live_cont .restaurant_form_field p{
+			text-align: left;
+    		width: 100%;
+			padding:0;
+		}
+		
+		.restu_live_cont .restaurant_cont_field input[type="text"]{
+			margin: 8px 0 10px 0;
+			width:100% !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field input[type="submit"]{
+			margin:10px 0 0 0 !important;
+		}
+		
+		.sec-pnl-top input[type="submit"]{
+			margin:0 0 0 324px !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field .my_report_table tr td .button4 {
+			margin: 0 0 0 10px !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field .my_report_table tr td #print_but{
+			margin: 0 0 0 10px !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field tr td .button4 {
+			margin-top: 10px !important;
+		}
+		
+    }
+
+
+/*  #Mobile (Portrait)
+================================================== */
+
+    /* Note: Design for a width of 320px */
+
+    @media only screen and (max-width: 767px) {
+		
+		.logo_section{
+			width:100%;
+		}
+		
+		header .container{
+			padding-left:0;
+			padding-right:0;
+		}
+		
+		.logo_section img {
+			height: auto;
+			margin: 49px 0 0 0;
+			width: 50%;
+		}
+		
+		.skdslider{
+			height:auto;
+		}
+		
+		.restu_search_panel{
+			margin: 69px auto 0;
+			padding: 0 0 20px 0 !important;
+			width: 100%;
+			height:auto;
+		}
+		
+		.black_shade img{
+			height: auto;
+			margin: -30px 0 0 !important;
+			width: 28%;
+		}
+		
+		.restu_search_panel h1{
+			font-size: 14px;
+			padding:22px 10px 18px 0;
+		}
+		
+		.search-panel-sec{
+			height:auto;
+			margin: 0 auto;
+    		width: 90%;
+		}
+		
+		.search_field{
+			float:none;
+			margin:12px 0 0 10px;
+			width:93%;
+		}
+		
+		.selectric-wrapper {
+			float: none;
+			margin: 10px auto 0;
+			width: 93%;
+		}
+		
+		.selectric{
+			width:100%;
+		}
+		
+		.search_button{
+			float:none;
+			margin:10px auto 11px 10px;
+			width:92%;
+		}
+		
+		.black_shade{
+			height:343px;
+		}
+		
+		.banner_section{
+			height:440px;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc{
+			max-width:100%;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc h2{
+			padding:10px !important;
+			font-size:18px !important;
+			border-radius:3px;
+			border:#dddddd 1px solid !important;
+			background:rgba(255, 255, 255, 0.8) !important;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc p{
+			padding:10px !important;
+			font-size:12px !important;
+			border-radius:3px;
+			border:#dddddd 1px solid !important;
+			background:rgba(255, 255, 255, 0.8) !important;
+		}
+		
+		.body_top_sec .heading_section img{
+			width:100%;
+			height:auto;
+		}
+		
+		.top_box_sec{
+			width:100% !important;
+			float:none !important;
+		}
+		
+		.body_top_sec .heading_section .top_box_sec img {
+			height: auto;
+			width: 30%;
+		}
+		
+		.address_bg{
+			width:100%;
+			height:auto;
+			padding:10px 10px 30px 10px;
+			margin-bottom:40px;
+		}
+		
+		.body_top_sec{
+			width:100%;
+			height:auto;
+			background-repeat:repeat;
+		}
+		
+		.address_bg h1{
+			font-size: 18px;
+    		padding: 33px 0 0;
+		}
+		
+		.delivery-app-sec{
+			height:auto;
+			background-repeat:repeat;
+		}
+		
+		.deliver_app{
+			width:100% !important;
+		}
+		
+		.desc_image_sec img {
+			float: none;
+			height: auto;
+			margin: 15px 0 0;
+			width: 100%;
+		}
+		
+		.app_butt_section{
+			text-align:center;
+		}
+		
+		.get_app_cls{
+			margin-right:0;
+		}
+		
+		.app_icon{
+			margin-top:20px;
+		}
+		
+		.app_deliver_sec{
+			margin:0;
+		}
+		
+		.update_section .heading_update_section img{
+			width:100%;
+			height:auto;
+		}
+		
+		.footer_mid_box{
+			width:100%;
+			text-align: center;
+		}
+		
+		.footer_mid_box h1{
+			margin-top:13px;
+		}
+		
+		.foot_mid_logo{
+			text-align:center;
+		}
+		
+		.last_mid_box a{
+			margin:14px 0 20px;
+		}
+		
+		.desc_image_sec{
+		}
+		
+		.update_section .slide{
+			width:283px !important;
+		}
+		
+		.update_section .slide_inner{
+			width:266px !important;
+		}
+		
+		.bx-wrapper .bx-prev{
+			left:7px;
+		}
+		
+		.bx-wrapper .bx-next{
+			right:14px;
+		}
+		
+		.slide_inner p{
+			line-height:20px;
+		}
+		
+		.mid_slide_section .skdslider .slide-desc h3{
+			background:none !important;
+		}
+		
+		.login-sec{
+			float: left;
+			margin: 9px 0 0;
+			position: relative;
+			z-index: 9;
+		}
+		
+		header{
+			height:50px;
+		}
+		
+		.cd-top{
+			left:48%;
+		}
+		
+		.search_address_section{
+			margin:49px 0 0;
+		}
+		
+		.restu-src {
+		    margin: 0 auto !important;
+		    width: 91% !important;
+		}
+		.social_sec ul{
+			font-size: 17px;
+		    margin-right: 0;
+		    width: 100%;
+		    text-align: center;
+		}
+		.social_sec ul li a{
+			line-height: 25px;
+    		width: 30px !important;
+		}
+		.social_sec ul li{
+			display: inline-block;
+		}
+		.last_mid_box a {
+		    margin: 14px auto 20px;
+		}
+		.footer_mid_box ul li span.footer_icon{
+			margin: 0;
+		}
+		.skdslider .slide-desc{
+			position: relative;
+		}
+		.mid_slide_section .skdslider{
+			  height: 686px;
+		}
+		/*------------*/
+		.js .slicknav_menu, .slicknav_menu{
+			z-index: 99999;
+			height: 49px !important;
+			 position: fixed;
+		}
+		.search_address_section {
+		    margin: 50px 0 0;
+		    padding-top: 94px;
+		    text-align: center;
+		}
+		.poptbl, .search_main_map{
+			display: none;
+		}
+		.listing_sec_box_inner{
+			padding: 7px;
+		}
+		.listing_image {
+		    float: none;
+		    height: 113px;
+		    margin: 8px auto 15px;
+		    overflow: hidden;
+		    width: 144px;
+		}
+		.listing_sec_box_inner .listing_details{
+			 margin: 0 0 7px;
+		    text-align: center;
+		    width: 100%;
+		}
+		.open-closed img {
+		    height: 61px;
+		    left: -7px;
+		    position: absolute;
+		    top: -135px;
+		}
+		.search_main_sec_inner{
+			padding: 4px 0;
+		}
+		.left_search{
+			padding: 14px 0 0;
+		}
+		.search_sec_div {
+		    margin: 14px 0 15px;
+		}
+		.search_field_two{
+			 width: 100%;
+			 margin: 0 20px 6px 0;
+		}
+        .pick_sort_sec {
+		    border-left: medium none;
+		    padding-left: 0;
+		}
+		.pick_section{
+			padding: 12px;
+		}
+		.pick_sec_div {
+		    display: inline-block;
+		    float: left;
+		    margin-right: 1%;
+		    width: 49%;
+		}
+		.sort_sec {
+		    background: #eeeeee none repeat scroll 0 0;
+		    border: 1px solid #fff;
+		    display: inline-block;
+		    float: left;
+		    margin-bottom: 4px;
+		    margin-right: 0;
+		    width: 100%;
+		}
+		ul.delivery_order li {
+		    border-right: medium none;
+		    font-size: 12px;
+		    font-weight: bold;
+		    line-height: 18px;
+		    margin: 0;
+		    padding-right: 0;
+		}
+		.listing_buttons {
+		    float: left;
+		    margin: 0 0 0 2%;
+		    width: 95%;
+		}
+		.footer_mid_box h1 {
+		    margin-top: 12px;
+		    font-size: 18px;
+		}
+		.footer_mid_box .fa-caret-right{
+			display: none;
+		}
+		.footer_mid_box ul li a{
+			width: 100%;
+		}
+		.footer_mid_box ul li span.footer_icon{
+			float: none;
+		}
+		.footer_mid_box{
+			margin-right: 0;
+		}
+		.social_sec p{
+			width: 100%;
+			float: none;
+			font-size: 18px;
+		}
+		.social_sec {
+		    margin: 30px 0 0;
+		    
+		}
+		
+		/*--------31/7/15--------*/
+		.white_content{
+			left: 12.5% !important;
+    		width: 75% !important;
+		}
+		#cuisine_div .l-contnt {
+		    max-height: 336px;
+		}
+		
+		/*.pop_shade {
+		    margin-left: 2px;
+		    margin-top: 100px;
+		    padding: 34px 0;
+		    width: 233px;
+		}*/
+		.pop-box.pop_shade img{
+			margin-left: 0 !important;
+    		width: 100%;
+		}
+		.delivery-app-sec p{
+			padding-right: 0;
+		}
+		
+		#sort_by_div_new .pop_shade, #distance_div_new .pop_shade, .pop_shade {
+		    float: none;
+		    left: 20%;
+		    margin: 58px auto 0;
+		    padding: 18px 0;
+		    width: 60%;
+		}
+		.vendor_cont_top h1{
+			 margin: 13px 0;
+			 padding: 0;
+		}
+		.all_restaurant {
+		     color: #686868;
+		    float: left;
+		    font-size: 16px;
+		    font-weight: normal;
+		    padding: 0 10px;
+		    text-align: left;
+		    vertical-align: top;
+		    width: 100%;
+		}
+		.restaurant_list {
+		    color: #666;
+		    float: left;
+		    font-size: 14px;
+		    height: 35px;
+		    margin: 0 0 12px;
+		    width: 100%;
+		}
+		.all_restaurant .button4{
+			margin: 0 0 15px !important;
+		}
+		.vendor_cont_top{
+			 margin-left: 0;
+		}
+		
+		.vendor_cont_bottom{
+			margin: 12px 0 0;
+		}
+		.vendor_cont_left {
+		    float: left;
+		    padding: 12px 0 12px 12px;
+		    text-align: center;
+		    width: 100%;
+		}
+		.vendor_cont_left img{
+			max-width: 100%;
+			height: auto;
+		}
+		.vendor_cont_middle2 {
+		    float: left;
+		    margin-left: 0;
+		    margin-top: 0;
+		    width: 100%;
+		}
+		.vendor_cont_middle2 .company_details {
+		    display: inline;
+    		float: none;
+		    font-size: 16px;
+		    font-weight: bold;
+		    width: 100%;
+		}
+		.vendor_cont_middle2 strong {
+			float: none;
+		}
+		
+		.vendor_cont_right {
+		    padding-right: 0px;
+		    width: 100%;
+		}
+		
+		.vendor_cont_middle2 .company_details_description {
+		    display: block;
+		    font-size: 14px;
+		    padding-left: 0;
+		    width: 100%;
+		}
+		.stick_header{
+			position: absolute;
+		}
+		.site-content article, .entry-content, .entry-content p{
+			text-align: center !important;
+			margin: 0;
+		}
+		.entry-content a{
+			display: block;
+    		margin: 10px;			
+		}
+		.entry-content a img{
+			float: none;
+    		margin: 0 auto;
+		}
+		
+		.contact_body_cont{
+			display: block;
+		}
+		.contact_left_panel, .cont_right_field p {
+		    float: none;
+		    width: 100%;
+		}
+		.cont_left_panel_middle p{
+			padding: 10px 12px;
+		}
+		.cont_right_field {
+		    margin-left: auto;
+		    margin-right: auto;
+		    width: 92%;
+		}
+		.contactfield{
+			 width: 100%;
+			 max-width: 100%;
+		}
+		.select_area_content {
+		    margin-left: auto;
+		    margin-right: auto;
+		    margin-top: 10px;
+		    width: 92%;
+		}
+		.select_area_top, .select_area_bottom, .select_textfield {
+		    width: 100%;
+		     max-width: 100%;
+		}
+		.select_area_bottom p {
+		    float: none;
+		    font-size: 14px;
+		    margin: 0;
+		    padding: 0;
+		    width: 100%;
+		}
+		.selectarea_box {
+		    font-size: 13px;
+		    margin: 0 0 8px;
+		    padding: 6px 0 7px 3px;
+		    width: 100%;
+		     max-width: 100%;
+		}
+		.select_textfield p {
+		    float: none;
+		    font-size: 14px;
+		    padding: 12px 10px 10px 0;
+		    width: 100%;
+		     max-width: 100%;
+		}
+		.contactarea{
+		    height: 80px;
+		    margin: 0 0 10px;
+		    padding: 3px 0 3px 3px;
+		    width: 100%;
+		     max-width: 100%;
+		}
+		.select_textfield h3 {
+		    color: #585858;
+		    font-family: Calibri;
+		    font-size: 13px;
+		    font-weight: bold;
+		    margin: 0;
+		    padding: 0;
+		}
+		.select_textfield .select_check {
+		    margin: 2px 8px 0 0;
+		}
+		.click_refresh {
+		   margin-bottom: 0 !important;
+		   margin-left: 0 !important;
+		   padding: 3px 0 0 !important;
+		   width: 100% !important;
+		}
+		.captcha_field {
+		    margin-left: 0;
+		    margin-top: 0;
+		}
+		.select_textfield .button3{
+			margin: 10px auto;
+		}
+		.contact_info {
+		    margin: 0 auto;
+    		width: 92%;
+		}
+		.contact_info h1 {
+		    color: #eb6f00;
+		    font-family: Calibri;
+		    font-size: 16px;
+		    font-weight: bold;
+		    margin: 6px 0;
+		    padding: 0;
+		}
+		.contact_right_panel{
+			width: 100%;
+			float: none;
+		}
+		.contact_right_middle img {
+		    float: left;
+		    margin: 5px 10px 5px 49px;
+		}
+		.mailing_address_bottom h3.mail_text {
+		    padding: 6px 6px 6px 34px;
+		}
+		.mailing_address_bottom h3{
+			padding: 6px 6px 6px 56px;
+		}
+		
+		/*------ Added on 11-08-15 ------*/
+		
+		.main_body{
+			margin: 116px auto 0;
+		}
+		
+		.food_cont_top{
+			margin-left: 0;
+		}
+		
+		.title-top h1{
+			width: 100%;
+			padding:0;
+		}
+		
+		.social_image div:first-child {
+			margin: 0 !important;
+		}
+		
+		.social_image2{
+			position: relative !important;
+    		top: 0;
+			width:100% !important;
+			margin:0 !important;
+			clear:both;
+		}
+		
+		#___plusone_0 {
+			margin: 0 0 0 10px !important;
+		}
+		
+		.food_cont_bottom{
+			margin: 0 0 24px 0;
+    		width: 100%;
+		}
+		
+		.food_left_side {
+			float: none;
+			height: auto;
+			margin: 0;
+			padding: 15px 15px 0;
+			width: 100%;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-clip-horizontal{
+			width: 170px;
+		}
+		
+		.food_left_side .jcarousel-skin-tango .jcarousel-item{
+			margin-left: 0;
+			margin-right: 10px;
+			width: 32px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-clip-horizontal{
+			width: 165px !important;
+		}
+		
+		.food_left_side .jcarousel-skin-tango .jcarousel-next-horizontal{
+			right: 335px;
+		}
+		
+		.black_pop_bg{
+			left: 10px !important;
+			width: 94% !important;
+		}
+		
+		.flex-viewport{
+			width:100% !important;
+		}
+		
+		.flexslider .slides {
+			width: 100% !important;
+		}
+		
+		.food_middle_side {
+			float: none;
+			width: 100%;
+		}
+		
+		.deal_side {
+			float: none;
+			margin-right: 0;
+			width: 100%;
+		}
+		
+		.fav-p{
+			float:none !important;
+		}
+		
+		.deal_radio {
+			margin: 0 !important;
+		}
+		
+		.certi_date div{
+			width:auto !important;
+		}
+		
+		.tab_section ul{
+			position:relative;
+		}
+		
+		.tab_section ul li{
+			border-right: medium none;
+    		float: none;
+		}
+		
+		.menu_modified ul li a{
+			float: none;
+			display: block;
+		}
+		
+		.rstrnt_panel {
+			float: none;
+			margin: 28px 0 !important;
+			width: 100% !important;
+		}
+		
+		#restro_2left_panel {
+			float: none;
+			margin: 0 auto !important;
+			width: 90%;
+		}
+		
+		.local_reviews{
+			font-size: 18px !important;
+			padding: 4px 0 0 0;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-container-horizontal{
+			width:100% !important;
+		}
+		
+		.food_left_side .jcarousel-skin-tango .jcarousel-next-horizontal{
+			right:0 !important;
+		}
+		
+		.social_image div iframe {
+			width: 100% !important;
+		}
+		
+		#sidemenu{
+			height: 270px;
+			margin-left: 117px;
+			position: absolute;
+			top: -153px;
+			transform: rotate(90deg);
+		}
+		
+		#sidebox{
+			left: 0;
+			width: 100%;
+		}
+		
+		#sidebox ul{
+			width: 100%;
+		}
+		
+		#sidemenu div{
+			top: 178px;
+		}
+		
+		#fancybox-wrap{
+			width: 96% !important;
+			left: 6px !important;
+			padding:0 !important;
+		}
+		
+		#fancybox-content{
+			width:100% !important;
+			margin:0 auto;
+		}
+		
+		.profle_wrapper_list{
+			width:100% !important;
+			margin:0 auto !important;
+		}
+		
+		.discount_one {
+			width: 100% !important;
+		}
+		
+		.discount_one_top{
+			width:100% !important;
+		}
+		
+		.discount_one_botton{
+			width: 100% !important;
+		}
+		
+		.discount_one_botton img {
+			height: auto;
+			margin: 0;
+			width: 95%;
+		}
+		
+		#fancybox-content div{
+			width:100% !important;
+		}
+		
+		.pop_item{
+			margin: -602px 0 0 0 !important;
+			right: 0;
+    		width: 100% !important;
+		}
+		
+		.pop_item h2{
+			font: 16px "calibri";
+		}
+		
+		.right_inr_pop_div{
+			float: none;
+			margin: 20px auto;
+			width: 90%;
+		}
+		
+		.left_inr_pop_div{
+			float: none;
+			margin: 20px auto;
+			width: 90%;
+		}
+		
+		.pop_item_nw .left_inr_pop_div input[type="submit"] {
+			margin: 0 0 0 10px;
+			transition: all 0.5s ease 0s;
+			width: 92%;
+		}
+		
+		.left_inr_pop_div textarea{
+			width: 91.5%;
+		}
+		
+		#light div{
+			left: 13px;
+			width: 91% !important;
+		}
+		
+		.ur-order{
+			clear: both;
+			display: block !important;
+			float: none !important;
+			margin: 10px auto !important;
+			width: 94% !important;
+		}
+		
+		/*checkout*/
+		
+		.about_cont_top{
+			margin-left: 0;
+		}
+		
+		.about_cont_top p img{
+			width:100%;
+			height:auto;
+		}
+		
+		.restaurant_cont_top{
+			margin-left:0;
+		}
+		
+		.checkout_left_panel{
+			float: none;
+			width: 100%;
+		}
+		
+		.checkout_right_panel{
+			float: none;
+			width: 100%;
+		}
+		
+		.check_form {
+			display: inline-block;
+			float: none !important;
+			margin: 10px 10px 10px 0;
+			width: 100%;
+		}
+		
+		.check_form select{
+			width: 100%;
+		}
+		
+		.check_new_form .first_name{
+			width:100%;
+		}
+		
+		#navigation_single_cart{
+			position:static !important;
+		}
+		
+		#follow_unfollow {
+			display: block;
+			float: none;
+			margin-left: 0;
+			margin-right: 0;
+			margin-top: 0;
+			position: relative;
+			text-align: center;
+			width: 100%;
+		}
+		
+		#follow_unfollow a{
+			margin-left:0 !important;
+		}
+		
+		#chck_cart{
+			float: none;
+		}
+		
+		.special_instructions div{
+			width:100%;
+		}
+		
+		.special_delivery_info textarea{
+			width:100%
+		}
+		
+		.special_instructions span{
+			width: 91%;
+		}
+		
+		.special_instructions input{
+			margin:0 !important;
+		}
+		
+		.special_instructions #amount{
+			background:none;
+			width: 72%;
+		}
+		
+		.payment_div .check_form select {
+			margin-bottom: 10px;
+			width: 100% !important;
+		}
+		
+		/*------ Added on 12-08-15 ------*/
+		
+		.registration_logo_section a{
+			display: block;
+    		text-align: center;
+		}
+		
+		.registration_logo_section img {
+			float: none;
+			height: auto;
+			margin: -1px 0 0;
+			width: 50%;
+		}
+		
+		.registration_logo_section h1{
+			float: none;
+			font-size: 30px;
+			padding: 10px;
+		}
+		
+		.registration_left{
+			float: none;
+			width: 100%;
+		}
+		
+		.regi_left_top h1{
+			padding: 20px 0;
+		}
+		
+		.regi_field_section p{
+			display: block;
+			padding: 8px 0 5px 10px;
+			text-align: left;
+			width: 100% !important;
+		}
+		
+		.regifield{
+			margin: 5px 0 10px;
+			padding: 8px 10px 8px 0;
+			width: 92% !important;
+		}
+		
+		.regicheckbox {
+			float: left;
+			margin: 7px 8px 0 12px !important;
+		}
+		
+		.regibutton{
+			margin: 6px 15px 10px 10px;
+		}
+		
+		.regi_login ul {
+			float: none;
+			padding: 0;
+		}
+		
+		.registration_right {
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.registration_right img {
+			margin: 21px 0 0;
+		}
+		
+		.log-pic {
+			margin: 0 !important;
+			position: relative;
+			transform: rotateY(180deg);
+			width: 37%;
+		}
+		
+		.registration_right ul {
+			margin-left: 0;
+		}
+		
+		.registration_logo_section h1{
+			padding: 22px 0 18px 28px;
+			font-size: 28px;
+		}
+		
+		.reg_left_nw .signupfield{
+			margin: 5px 0 10px;
+			padding: 8px 10px 8px 0;
+			width: 92%;
+		}
+		
+		.reg_right_nw .sel_cls{
+			margin: 5px 0 10px;
+			padding: 8px 10px 8px 0;
+			width: 92%;
+		}
+		
+		.reg_right_nw .regi_field_section p.subscribe_reg{
+			padding: 0;
+		}
+		
+		.reg_right_nw .regi_field_section p.subscribe_reg input[type="checkbox"]{
+			float: left;
+			margin: 4px 4px 0 11px;
+		}
+		
+		.reg_right_nw .submit_button_left:first-child {
+			margin: 0 10px;
+		}
+		
+		.reg_right_nw .regi_field_section .submit_text p {
+			padding: 10px;
+		}
+		
+		.registration_admin_section .regicheckbox {
+			margin: 6px 10px 0 11px !important;
+		}
+		
+		.registration_admin_section .regibutton {
+			margin: 6px 15px 10px 10px;
+		}
+		
+		.about_cont_bottom{
+			margin: 10px 0 0 0;
+		}
+		
+		p.terms_text3{
+			padding: 12px 16px 0 15px;
+		}
+		
+		ul.terms_text_2 {
+			margin: 10px 0 0 0;
+		}
+		
+		p.terms_text4{
+			padding: 12px 16px 0 15px;
+		}
+		
+		p.terms_text5{
+			padding: 12px 16px 0 15px;
+		}
+		
+		.about_cont_middle{
+			margin-left: 0;
+		}
+		
+		.profile_left {
+			float: none;
+			margin-left: 0;
+			width: 100%;
+		}
+		
+		.profle_bottom p{
+			float: none;
+			width: 100%;
+		}
+		
+		reserve_details_left_sec span{
+			display: block;
+			padding-left: 10px !important;
+    		padding-top: 10px;
+		}
+		
+		#captcha_code{
+			float: none;
+			margin-left: 10px;
+			margin-right: 0;
+		}
+		
+		.profilebutton{
+			margin: 8px 0 12px 10px;
+		}
+		
+		.reservation_hr{
+			float: none;
+			width: 100%;
+			margin-right: 0;
+		}
+		
+		.reservation_hr ul li.profile_li_class span {
+			width: 100%;
+		}
+		
+		.reservation_hr ul li.profile_li_class span.pro_sign {
+			margin-right: 0;
+		}
+		
+		.profile_details_top h1{
+			padding: 0 0 6px;
+		}
+		
+		.review_form_field .pic_size{
+			margin: 8px 6px 0 10px;
+			width: 60%;
+		}
+		
+		.add_plus_new{
+			margin: 14px 0 0;
+		}
+		
+		.review_form_field {
+			float: none;
+			margin-left: 0;
+			width: 93%;
+		}
+		
+		.restaurant_form_field p{
+			padding: 12px 10px 10px;
+			text-align: left;
+			width: 100%;
+		}
+		
+		.review_form_field .restaurant{
+			margin-left: 10px;
+    		width: 92%;
+		}
+		
+		.review_form_field .new_rating{
+			margin-left: 10px;
+			margin-right: 0;
+			width: 92% !important;
+		}
+		
+		.review_form_field .restaurant_browse{
+			margin: 0 0 0 10px;
+    		width: 92%;
+		}
+		
+		.review_area p {
+			width: 100%;
+		}
+		
+		.review_form_field .restaurant_browse2{
+			margin: 0 0 0 10px;
+    		width: 92%;
+		}
+		
+		.rev_sub_butt {
+			float: left;
+			margin-right: 0;
+		}
+		
+		.profile_right {
+			float: none;
+			width: 100%;
+		}
+		
+		.left_input_sec{
+			float: none;
+			width: 92%;
+		}
+		
+		.right_input_sec{
+			margin: 0 10px 10px 10px;
+			width: 92%;
+			float:none;
+		}
+		
+		.follow-section{
+			float: none;
+		}
+		
+		.follow-section ul li {
+			display: block;
+			float: none;
+			margin: 0;
+			position: relative;
+			text-align: center;
+			width: 100%;
+			clear: both;
+		}
+		
+		.follow-section ul li a{
+			width: 100%;
+		}
+		
+		.follow-section ul li a strong{
+			display:block;
+		}
+		
+		.follow-section ul li.big-text {
+			float: none;
+			text-align: center;
+			width: 100%;
+			margin:0;
+		}
+		
+		.follow-section ul li.big-text a{
+			width: 100%;
+		}
+		
+		.follow-section ul li.big-text2 {
+			width: 100%;
+		}
+		
+		.reward-listing-sec .reward-listing .reward-dtl {
+			float: left;
+			width: 66%;
+			margin-left: 5px;
+		}
+		
+		.right_user_profile h1 a{
+			width: 100%;
+			float:none;
+		}
+		
+		.user_pro_div {
+			margin-right: 0;
+			width: 100%;
+			float: none;
+		}
+		
+		.profile-name {
+			float: none;
+		}
+		
+		.profile-name h1{
+			text-align: center;
+		}
+		
+		.user-cont-left{
+			float: none;
+			width: 100%;
+		}
+		
+		.user-cont-right {
+			float: none;
+			margin: 20px 0 0;
+			width: 100%;
+		}
+		
+		.restu_edit_left {
+			float: none;
+			width: 100%;
+		}
+		
+		.restu_edit_left .first_name {
+			display: table;
+			float: none;
+			width: 100%;
+		}
+		
+		.edit_restu .signupfield{
+			width: 100%;
+		}
+		
+		.edit_restu input.regifield{
+			width:100% !important;
+		}
+		
+		.edit_restu .sel_cls{
+			width: 100%;
+		}
+		
+		.restu_edit_right {
+			float: none;
+			margin: 10px 0 0;
+			width: 100%;
+		}
+		
+		.last_nme{
+			float:none;
+		}
+		
+		.heading_update_section img{
+			width:100%;
+			height:auto;
+		}
+		
+		.reserve_select_sec .reserve_select{
+			float:none;
+			width:100% !important;
+		}
+		
+		.reserve_select_sec input[type="submit"]{
+			margin: 10px 0 5px;
+		}
+		
+		.reserve_select_sec input[type="button"]{
+			margin: 10px 0 5px 10px;
+		}
+		
+		.reserve_table tr td.all_restaurant{
+			float:none;
+		}
+		
+		#reservation_frm{
+			overflow:scroll;
+		}
+		
+		.shipping_main_left {
+			float: none;
+			width: 100%;
+		}
+		
+		.shipping_main_right {
+			float: none;
+			width: 100%;
+		}
+		
+		.shipping_main_div input.regifield{
+			width: 96% !important;
+			border:1px solid #dddddd;
+			padding:8px 10px;
+		}
+		
+		.archive-title, .page-title, .widget-title, .entry-content th, .comment-content th{
+			line-height: 1.182;
+		}
+		
+		.sort_sec ul li{
+			float: none;
+			width: 100%;
+		}
+		
+		#submit_div3{
+			width:100% !important;
+		}
+		
+		#submit_div3 .pop_shade {
+			margin-left: 0;
+		}
+		
+		/*------ Admin sec ------*/
+		
+		.logo_left img {
+			height: auto;
+			margin: 0;
+			width: 66%;
+		}
+		
+		.header_top{
+			height:auto;
+		}
+		
+		.admin_login_section{
+			margin:0;
+		}
+		
+		.admin_login_section ul li.admin_welcome{
+			padding: 8px 0 10px 0;
+		}
+		
+		.login_section ul li{
+			display:block !important;
+			text-align:center !important;
+		}
+		
+		.restu_nav_left {
+			float: none;
+			text-align: center;
+			width: 100%;
+		}
+		
+		.restu_nav_right {
+			float: none;
+			text-align: center;
+			width: 100%;
+		}
+		
+		.restaurant_nav p{
+			float: none;
+			display:inline;
+		}
+		
+		.restaurant_nav ul li{
+			display:block;
+		}
+		
+		.restu_live_cont .restaurant_cont_field {
+			margin: 0 !important;
+			width: 100% !important;
+			overflow:auto;
+		}
+		
+		.restaurant_cont_field br{
+			display:none;
+		}
+		
+		.restu_live_cont .restaurant_cont_field table.sec-pnl-top tr td {
+			display: block;
+			padding: 0;
+			width: 100%;
+		}
+		
+		.restu_live_cont .restaurant_cont_field input[type="text"]{
+			float: none;
+			margin-bottom: 10px;
+			margin-right: 0;
+			width: 100% !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field select{
+			float: none;
+			width: 100% !important;
+		}
+		
+		.live_submit_sec {
+			float: none;
+		}
+		
+		.restu_live_cont .restaurant_cont_field tr td .button4 {
+			font-size: 12px;
+			padding: 0 9px !important;
+			margin-bottom:8px;
+			margin-top: 10px !important;
+			margin-right:0 !important;
+			float:left !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field tr td a.button4 {
+			margin-right:10px !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field .sort {
+			float: none;
+			margin: 10px 0 0;
+			text-align: left;
+		}
+		
+		.restu_live_cont .restaurant_cont_field .sort select {
+			float: none;
+			margin: 10px 4px 0 0;
+			width: auto;
+		}
+		
+		.restu_live_cont .restaurant_cont_field tr th.all_restaurant{
+			float:none;
+		}
+		
+		.restu_live_cont .restaurant_form_field {
+			margin-left: 0;
+			width: 100%;
+		}
+		
+		.restu_live_cont .restaurant_cont_top h1{
+			font-size: 22px;
+		}
+		
+		.restu_live_cont .restaurant_form_field p{
+			padding: 0;
+		}
+		
+		.sec-pnl-top{
+			width:100%;
+		}
+		
+		.sec-pnl-top input[type="submit"]{
+			margin:10px 0 !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field table.my_report_table tr td {
+			display: block;
+			padding: 0;
+			width: 100%;
+		}
+		
+		.report_head{
+			float:none !important;
+		}
+		
+		.restu_live_cont .restaurant_cont_field tr td #print_but{
+			margin: 10px 0 0 !important;
+		}
+		
+		/*------ Added on 11-09-15 ------*/
+		
+		.back_restu_link_left{
+			float: none;
+    		margin: 0 0 5px 0;
+		}
+		
+		.cart_section {
+			float: none;
+			margin-bottom: 10px;
+			margin-top: 0;
+		}
+		
+		/*------ Added on 28-09-15 ------*/
+		
+		.back_restu_link {
+			float: none;
+			margin: 0;
+		}
+		
+		.vendor_table{
+			display:block;
+		}
+		
+		.vendor_table tr td.all_restaurant{
+			float:none;
+			display:table;
+		}
+		
+		/*.vendor_table tbody{
+			width:100%;
+		}
+		
+		.vendor_table tbody tr{
+			display: block;
+    		width: 268px;
+		}*/
+		
+		.heading_txt_nw_2{
+			float: none;
+			margin: 0 auto;
+			width: 94%;
+		}
+		
+
+    }
+
+
+/* #Mobile (Landscape)
+================================================== */
+
+    /* Note: Design for a width of 480px */
+
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+		
+		.logo_section img{
+			width:38%;
+		}
+		
+		.restu_search_panel h1{
+			font-size:19px;
+			padding:22px 22px 18px 0;
+		}
+		.black_shade img {
+		    margin: -72px 0 0 !important;
+		}
+		.get_app_cls{
+			width:208px;
+			font-size:16px;
+			padding:11px 0 0 15px;
+		}
+		
+		.get_app_cls img{
+			margin:9px 15px 0 0;
+		}
+		
+		.app_icon {
+			display: inline-block;
+			height: auto;
+			margin-left: 16px;
+			margin-top: 0 !important;
+			width: 11%;
+		}
+		
+		.delivery-app-sec h1{
+			/*font-size: 24px;*/
+		}
+		
+		.delivery-app-sec p{
+			padding-right:0;
+		}
+		
+		.app_butt_section{
+			text-align:left;
+			margin:10px 0 0 0;
+		}
+		
+		.footer_mid .foot_mid_logo{
+			width:100% !important;
+		}
+		
+		/*.footer_mid_box{
+			width:46% !important;
+		}*/
+		
+		.cd-top{
+			left:48.5%;
+		}
+		
+		.update_section .slide {
+			width: 443px !important;
+		}
+		
+		.update_section .slide_inner {
+			width: 430px !important;
+		}
+		
+		.body_top_sec .heading_section .top_box_sec img{
+			width: 20%;
+		}
+		
+		.js #menu, #menu {
+			display:none;
+		}
+		
+		/*.js .slicknav_menu {
+			display: block;
+			position: absolute;
+			width: 100%;
+			z-index: 9;
+			padding:0;
+		}*/
+		.blank-space{
+			 height: 192px;
+		}
+        
+        
+        /*-------------------*/
+       #sort_by_div_new .pop_shade, #distance_div_new .pop_shade, .pop_shade {
+		    float: none;
+		    left: 25%;
+		    margin: 58px auto 0;
+		    width: 50%;
+		}
+		
+		.search_address_section{
+			padding-top: 114px;
+		}
+		
+		/*========*/
+		.contact_right_middle img {
+		    float: left;
+		    margin: 5px 10px 5px 112px;
+		}
+		.mailing_address_bottom h3 {
+		    padding: 6px 6px 6px 129px;
+		}
+		.mailing_address_bottom h3.mail_text {
+		    padding: 6px 6px 6px 98px;
+		}
+		
+		.special_instructions #amount{
+			width: 83%;
+		}
+		
+		.admin_login_section ul li a.admin_regi_icon{
+			margin: 0 80px 25px 20px;
+		}
+		
+		.header_section .search_address_section{
+			margin: 90px 0 0;
+		}
+		
+		.search_address_section a.back_restu_link{
+			float: none !important;
+    		margin: 0 0 5px 0 !important;
+		}
+    }
+	
+	
+   
+     @media only screen and (min-width: 800px) and (max-width: 959px) {
+	 	
+			.black_shade{
+				height:420px;
+				margin:50px 0 0;
+			}
+			
+			.banner_section{
+				height:476px;
+			}
+		
+	 }
+	 
+	  @media only screen and (width: 360px){
+	  	
+			.update_section .slide {
+				width: 320px !important;
+			}
+			
+			.update_section .slide_inner {
+				width: 305px !important;
+			}
+			
+			.search_address_section{
+				padding-top: 112px;
+			}
+			
+			.search_address_section a.back_restu_link{
+				float: none !important;
+				margin: 0 0 5px 0 !important;
+			}
+			
+	  }
+	  
+	   @media only screen and (min-width: 600px) and (max-width: 640px){
+		   
+			.body_top_sec .heading_section .top_box_sec img{
+				width: 15%;
+			}
+			
+			.update_section .slide {
+				width: 288px !important;
+			}
+			
+			.update_section .slide_inner {
+				width: 272px !important;
+			}
+			
+			.logo_section img {
+				width: 26%;
+			}
+			
+			.black_shade img {
+				height: auto;
+				margin: -85px 0 0 30px !important;
+				width: 22%;
+			} 
+			
+			.search_field {
+				float: left;
+				margin: 12px 0 0 10px;
+				width: 33%;
+			} 
+			
+			.selectric {
+				float: left;
+				margin: 2px 0 0 10px;
+				width: 35%;
+			} 
+			
+			.search_button {
+				float: left;
+				margin: 1px auto 11px 10px;
+				width: 25%;
+			}
+			
+			.restu_search_panel{
+				margin:103px auto 0;
+			}
+			
+			.black_shade{
+				height:270px;
+				margin:50px 0 0;
+			}
+			
+			.banner_section {
+				height: 326px;
+			}
+			
+			.js #menu, #menu {
+				display:none;
+			}
+			
+			.js .slicknav_menu, .slicknav_menu {
+				display: block;
+				position: absolute;
+				width: 100%;
+				z-index: 999999;
+				padding:0;
+			}
+			
+			.site-content {
+				float: none !important;
+				width: 100% !important;
+			}   
+			
+			.widget-area{
+				float: none !important;
+    			margin: 33px auto 35px !important;
+				width: 97% !important;
+			}
+			
+			.admin_login_section ul li a.admin_regi_icon {
+				margin: 0 164px 25px 20px;
+			}
+			
+			.header_section .search_address_section {
+				margin: 58px 0 0;
+			}
+			
+			.logo_left img {
+				height: auto;
+				margin: 0;
+				width: 40%;
+			}
+	  			
+	  }
+	  
+	  @media only screen and (min-width: 900px) and (max-width: 1100px){
+		  .widget-area #s {
+				width: 57.667% !important;
+			}
+			
+			.last_mid_box a {
+				font-size: 12px;
+				margin: 8px 0 20px;
+			}
+			
+			.log-pic{
+				margin: -44px 0 0 216px !important;
+				width: 12%;
+				height: auto;
+			}
+			
+			.regibutton{
+				margin: 6px 15px 10px 207px;
+			}
+			
+			.registration_logo_section h1{
+				font-size: 38px;
+			}
+			
+			.registration_admin_section .regibutton {
+				margin: 6px 15px 30px 419px;
+			}
+			
+			.registration_admin_section .regicheckbox {
+				margin: 8px 0 0 140px !important;
+			}
+			
+			.deal_side {
+				margin-right: 0;
+			}
+			
+			.social_image2{
+				margin: 0 0 0 454px;
+			}
+			
+			.reservation3{
+				margin: 10px 5px;
+				width:30%;
+			}
+			
+			.review_form_field .restaurant{
+				width: 28%;
+			}
+			
+			.review_form_field .new_rating{
+				width: 28% !important;
+			}
+			
+			.review_form_field .restaurant_browse{
+				width: 28%;
+			}
+			
+			.review_form_field .pic_size{
+				margin: 0 6px 0 586px;
+				width: 26%;
+			}
+			
+			.review_form_field .restaurant_browse2{
+				width: 80%;
+			}
+			
+			.food_left_side{
+				width: 32%;
+			}
+			
+			.deal_side {
+				width: 35%;
+			}
+			
+			.list_style img{
+				width: 100%;
+				height: auto;
+			}
+			
+			.user_pro_div {
+				margin-left: 10px;
+				margin-right: 0;
+				width: 32%;
+			}
+			
+			.pop_shade{
+				margin-left: auto !important;
+				margin-right: auto !important;
+				position: relative !important;
+			}
+			
+			.restu_live_cont .restaurant_cont_field table.balance_pnl tr td {
+				display: inline-block;
+				width: auto !important;
+			}
+	  }
+	
+	@media only screen and (width: 1024px) {
+		/*.sticky {
+		  right: 42px !important;
+		}*/
+		
+		.search_main_map{
+			width: 226px;
+		}
+		
+		.registration_admin_section .regibutton {
+			margin: 6px 15px 30px 419px;
+		}
+	}
+	
+	@media only screen and (width: 1048px) {
+		.restu-src{
+			width: 945px !important;
+		}
+	}
+	
+	/*@media only screen and (width: 1280px) {
+		.sticky {
+		  right: 5.6% !important;
+		}
+	}
+	@media only screen and (width: 1366px) {
+		.sticky {
+		  right: 7.8% !important;
+		}
+	}
+	 @media only screen and (width: 1920px){
+		 .sticky {
+		  right: 20.4%;
+		} 
+	}*/

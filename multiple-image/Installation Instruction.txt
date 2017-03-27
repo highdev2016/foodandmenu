@@ -1,0 +1,16 @@
+Author: CodexWorld
+Author URI: www.codexworld.com
+Author Email: contact@codexworld.com
+Tutorial URL: http://www.codexworld.com/upload-multiple-images-using-jquery-ajax-php/
+
+Instruction::
+
+1. Extract the zip file.
+2. Move "upload_multiple_images_using_jquery_ajax_php/" folder at the localhost.
+3. Now run the index.php file at the browser.
+4. Test images uploading.
+5. Present system haven't store uploaded images into the folder. If you want to upload and store images into the folder, then open the upload.php file => go to the line no. 14 and remove the comment form line 14 to 18 => comment out the line 21 and 22.
+
+
+============ May I Help You ===========
+If you have any query about this script, please feel free to comment here - http://www.codexworld.com/upload-multiple-images-using-jquery-ajax-php/#respond. We will reply your query ASAP.

@@ -1,0 +1,57 @@
+/*
+Copyright (c) 2003-2011, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.html or http://ckeditor.com/license
+*/
+
+body
+{
+	/* Font */
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;
+
+	/* Text color */
+	color: #222;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right:0px;
+	/* preserved spaces for rtl list item bullets. (#6249)*/
+    padding-right:40px;
+}
+
+@font-face {
+	font-family: 'Ganashakti';
+	src: url('../ganashakti.eot');
+	src: local('?'), url('../ganashakti.woff') format('woff'), url('../ganashakti.ttf') format('truetype'), url('../ganashakti.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GanashaktiBold';
+	src: url('../ganashakti-bd.eot');
+	src: local('?'), url('../ganashakti-bd.woff') format('woff'), url('../ganashakti-bd.ttf') format('truetype'), url('../ganashakti-bd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GanashaktiItalic';
+	src: url('../ganashaktiItalic.eot');
+	src: local('?'), url('../ganashaktiItalic.woff') format('woff'), url('../ganashaktiItalic.ttf') format('truetype'), url('../ganashaktiItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GanashaktiBoldItalic';
+	src: url('../ganashakti-bi.eot');
+	src: local('?'), url('../ganashakti-bi.woff') format('woff'), url('../ganashakti-bi.ttf') format('truetype'), url('../ganashakti-bi.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
